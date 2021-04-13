@@ -3,25 +3,29 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "noUnusedLocals": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
     "noImplicitThis": true,
     "importHelpers": true,
+    "sourceMap": true,
     "noImplicitAny": false,
     "jsx": "react-native",
     "lib": ["es6"],
     "moduleResolution": "node",
     "noEmit": true,
-    "strict": true,
+    "module": "esnext",
     "target": "esnext",
     "checkJs": true,
     "baseUrl": ".",
+    "rootDir": "src",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
   "exclude": [
     "node_modules",
+    "src/Config/ReactotronConfig.js",
     "babel.config.js",
     "metro.config.js",
     "jest.config.js"
