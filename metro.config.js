@@ -13,6 +13,8 @@ module.exports = {
         inlineRequires: true,
       },
     }),
+    babelTransformerPath: require.resolve(
+      'react-native-typescript-transformer'
+    ),
   },
-  babelTransformerPath: require.resolve('react-native-typescript-transformer'),
 }

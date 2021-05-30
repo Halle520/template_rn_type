@@ -1,5 +1,6 @@
 module.exports = {
   bracketSpacing: false,
+  tabWidth: 20,
   jsxBracketSameLine: true,
   singleQuote: true,
   arrowParens: 'avoid',
@@ -7,4 +8,4 @@ module.exports = {
   semi: false,
   tabWidth: 2,
   trailingComma: 'es5',
-};
+}
